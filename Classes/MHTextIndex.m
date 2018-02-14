@@ -10,8 +10,8 @@
 #import "MHSearchResultItem.h"
 #import "bloom-filter.h"
 #import "hash-string.h"
-#import <Objective-LevelDB/LDBWritebatch.h>
-#import <Objective-LevelDB/LDBSnapshot.h>
+#import <Objective_LevelDB/LDBWritebatch.h>
+#import <Objective_LevelDB/LDBSnapshot.h>
 
 static const uint64_t reversePrefix = 0;
 static const uint64_t directPrefix  = 1;
